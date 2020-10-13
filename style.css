@@ -1,0 +1,39 @@
+body {
+    padding-top: 70px;
+}
+
+.container{
+	font-size: 18px;
+}
+
+
+
+.intro {
+    padding: 40px 15px;
+    <!-- text-align: center;
+    -->
+}
+
+.photo{
+    border:1px solid black;
+}
+
+.photo-div{
+     padding: 5px;
+}
+
+.li-spacing{
+  margin: 10px 0;
+}
+
+.break {
+    padding-bottom: 10px;
+    clear: both;
+}
+
+.center {
+    display: block;
+    margin: auto;
+    width: 40%;
+    text-align: center;
+}
