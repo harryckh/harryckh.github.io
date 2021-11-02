@@ -28,11 +28,22 @@
 
 <body>
     <div class="container">
+        <h3>Sometimes the import from git in mac Eclipse is bug. </h3>
+        <ol>
+            <li>Try the following fix.
+            <li>In the middle of import, we will be creating a new project.<br>
+                <img src="newproj.png">
+            <li>Unselect "Use default location."
+            <li>Browse and select the location to the downloaded git folder<br>
+            <li>Next and finish the new project.
+            <li>Remember to import necessary jar.
+        </ol>
+        <hr>
         <h3>This guideline is to setup GitHub to commit/pull in Eclipse.</h3>
         <ol>
             <li> Token is required since August 13, 2021. Login Github using account & password in Eclipse is no longer supported.[1] </li>
             <li> Create a personal token follow the steps here: <a href="https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token" target="new"> [2]</a>
-            <br>Note that each token only appear once and cannot be retrieved again. Re-generation is needed to setup each time.</li>
+                <br>Note that each token only appear once and cannot be retrieved again. Re-generation is needed to setup each time.</li>
             <li>Reset in Eclipse [3]
                 <ol>
                     <li>Go to the Window -> Git Perspective -> Expand your Project -> Expand Remotes -> Expand the remote you want to save your password.
@@ -47,7 +58,7 @@
         <br>2. <a href="https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token" target="new"> https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token</a>
         <br>3. <a href="https://stackoverflow.com/questions/15331166/how-to-make-egit-remember-password-and-username#:%7E:text=Go%20to%20the%20Git%20Perspective,username%20and%20password%20%2D%3E%20Select%20Ok" target="new">https://stackoverflow.com/questions/15331166/how-to-make-egit-remember-password-and-username#:%7E:text=Go%20to%20the%20Git%20Perspective,username%20and%20password%20%2D%3E%20Select%20Ok</a>
         <br>
-        <br>Last updated on Aug 2021
+        <br>Last updated on Nov 2021
     </div>
     <!-- /.container -->
     <!-- Bootstrap core JavaScript
