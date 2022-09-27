@@ -9,7 +9,7 @@ body {
 
 
 .intro {
-    padding: 40px 15px;
+    padding: 4px 15px;
     <!-- text-align: center;
     -->
 }
@@ -20,7 +20,7 @@ body {
 }
 
 .photo-div{
-     padding: 5px;
+     padding: 0px;
      max-width: 100%;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .break {
-    padding-bottom: 10px;
+    padding-bottom: 6px;
     clear: both;
 }
 
