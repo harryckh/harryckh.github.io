@@ -11,6 +11,21 @@
 
   gtag('config', 'UA-61451904-2');
 </script>
+<script type="text/javascript">function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}</script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -93,13 +108,11 @@
                                         211 Portobello, Sheffield, S1 4DP, UK<br>
                                     </td>
                                 </tr>
-                                
-                                <!--
                                 <tr>
-                                    <td>Tel:</td>
-                                    <td>+45 46 74 30 81<br></td>
+                                    <td><b>Tel:</b></td>
+                                    <td>+44 114 222 2638</td>
                                 </tr>
-                            -->
+                            
                             </table>
                         </p>
                     </td>
@@ -112,8 +125,10 @@
          <a id="news"></a>
         <hr>
         <h3> News </h3>
+        
         <ul>
-            <li class="li-spacing">09/2022 I am thrilled to announce that I started in a new position as Lecturer in Data Science at the Information School, the University of Sheffield, UK. </li>
+            <li class="li-spacing">11/2022 <b>[Service]</b> PC member of PAKDD 2023 </li>
+            <li class="li-spacing">09/2022 <b>[Affiliation]</b> I am thrilled to announce that I started in a new position as Lecturer in Data Science at the Information School, the University of Sheffield, UK. </li>
             <li class="li-spacing">06/2022 <b>[Service]</b> PC member of ICDE 2023 (demo track)</li>
             <li class="li-spacing">05/2022 <b>[Service]</b> PC member of ADMA 2022</li>
             <li class="li-spacing">05/2022 <b>[Service]</b> Reviewer of IEEE Access</li>
@@ -121,20 +136,31 @@
             <li class="li-spacing">02/2022 <b>[Service]</b> PC member of IEEE BigData 2022</li>
             <li class="li-spacing">02/2022 <b>[Service]</b> PC member of CIKM 2022</li>
             <li class="li-spacing">02/2022 <b>[Publication]</b>  Our paper "Continuous Social Distance Monitoring in Indoor Space" is accepted by VLDB 2022.</li>
-            <!--<li class="li-spacing">[Feb 2022] Introducing this news section to share my updates.</li>-->
+            <!--
+            <span id="dots">...</span> <span id="more">
+                <li class="li-spacing">02/2022 <b>[Publication]</b>  Our paper "Continuous Social Distance Monitoring in Indoor Space" is accepted by VLDB 2022.</li>
+            </span> -->
          </ul>
+         <!-- <button type="button" class="btn btn-link" onclick="myFunction()" id="myBtn">Read more</button>-->
          <!--=========================================================-->
         <a id="biography"></a>
         <hr>
         <div class="break"></div>
         <h3> Biography </h3>
         <p> 
+            I joined the <a href="https://www.sheffield.ac.uk/is" target="_blank">Information School</a>, the University of Sheffield as Lecturer in Data Science in Sep 2022. From Oct 2020 to Aug 2022, I worked as a Postdoc Researcher at the Programming, Logic and Intelligent Systems (PLIS) research group in the Department of People and Technology, Roskilde University (RUC), Denmark,
+            working on the research project  <a href="https://indoorlbs.github.io/" target="_blank">Data Management for Indoor LBS</a>  (PI: <a href="http://luhua.ruc.dk/" target="_blank">Prof. Hua Lu</a>). 
+            I graduated in 2019 with a PhD degree from Department of Computer Science and Engineering, The University of Science and Technology (HKUST), Hong Kong, under the supervision of <a href="http://www.cse.ust.hk/~raywong" target="_blank">Prof. Raymond Chi-Wing Wong</a>. 
+            I obtained my BEng and MPhil degrees in Computer Science and Engineering in HKUST in 2013 and 2015, respectively.
+            <br><br>
+            In Fall 2019, I worked as a Visiting Lecturer at The Hong Kong Polytechnic University (PolyU), Hong Kong Community College (HKCC). From Apr 2019 to Jul 2019, I was a visiting student of <a href="https://personal.ntu.edu.sg/c.long/" target="_blank">Prof. Cheng Long</a>, at School of Computer Science and Engineering (SCSE), Nanyang Technological University (NTU), Singapore. Besides, I was the hall tutor in Chan Sui Kau and Chan Lam Moon Chun Hall (UG Hall VII), HKUST from Feb 2016 to Apr 2019. </p>
+            <!--        <p> 
             I joined the <a href="https://www.sheffield.ac.uk/is" target="_blank">Information School</a>, <a href="https://www.sheffield.ac.uk/" target="_blank"> the University of Sheffield</a> as Lecturer in Data Science in Sep 2022. From Oct 2020 to Aug 2022, I worked as a Postdoc Researcher at the <a href="https://forskning.ruc.dk/en/organisations/programmering-logik-og-intelligente-systemer/" target="_blank">Programming, Logic and Intelligent Systems</a> (PLIS) research group in the <a href="https://ruc.dk/en/department-people-and-technology" target="_blank">Department of People and Technology</a>, <a href="http://www.ruc.dk/en" target="_blank">Roskilde University</a> (RUC), Denmark,
             working on the research project  <a href="https://indoorlbs.github.io/" target="_blank">Data Management for Indoor LBS</a>  (PI: <a href="http://luhua.ruc.dk/" target="_blank">Prof. Hua Lu</a>). 
             I graduated in 2019 with a PhD degree from <a href="http://www.cse.ust.hk/" target="_blank">Department of Computer Science and Engineering</a>, <a href="http://www.ust.hk/" target="_blank">The University of Science and Technology</a> (HKUST), Hong Kong, under the supervision of <a href="http://www.cse.ust.hk/~raywong" target="_blank">Prof. Raymond Chi-Wing Wong</a>. 
             I obtained my BEng and MPhil degrees in Computer Science and Engineering in HKUST in 2013 and 2015, respectively.
             <br><br>
-            In Fall 2019, I worked as a Visiting Lecturer at <a href="https://www.hkcc-polyu.edu.hk/en/home/index.html" target="_blank">Hong Kong Community College</a> (HKCC), <a href="https://www.polyu.edu.hk/web/en/home/index.html" target="_blank">The Hong Kong Polytechnic University</a> (PolyU). From Apr 2019 to Jul 2019, I was a visiting student of <a href="https://personal.ntu.edu.sg/c.long/" target="_blank">Prof. Cheng Long</a>, at <a href="http://scse.ntu.edu.sg/Pages/Home.aspx" target="_blank">School of Computer Science and Engineering</a> (SCSE), <a href="http://www.ntu.edu.sg/Pages/home.aspx" target="_blank">Nanyang Technological University</a> (NTU), Singapore. Besides, I was the hall tutor in Chan Sui Kau and Chan Lam Moon Chun Hall (UG Hall VII), HKUST from Feb 2016 to Apr 2019. </p>
+            In Fall 2019, I worked as a Visiting Lecturer at <a href="https://www.hkcc-polyu.edu.hk/en/home/index.html" target="_blank">Hong Kong Community College</a> (HKCC), <a href="https://www.polyu.edu.hk/web/en/home/index.html" target="_blank">The Hong Kong Polytechnic University</a> (PolyU). From Apr 2019 to Jul 2019, I was a visiting student of <a href="https://personal.ntu.edu.sg/c.long/" target="_blank">Prof. Cheng Long</a>, at <a href="http://scse.ntu.edu.sg/Pages/Home.aspx" target="_blank">School of Computer Science and Engineering</a> (SCSE), <a href="http://www.ntu.edu.sg/Pages/home.aspx" target="_blank">Nanyang Technological University</a> (NTU), Singapore. Besides, I was the hall tutor in Chan Sui Kau and Chan Lam Moon Chun Hall (UG Hall VII), HKUST from Feb 2016 to Apr 2019. </p>-->
         <!--=========================================================-->
         <a id="research"></a>
         <hr>
@@ -250,8 +276,8 @@
         <p> <b>Session Chair:</b> SSTD 2021<br>
             <br>
             <b>Program Committee Member:</b>
-            <br>2023: ICDE (demo track), ...
-            <br>2022: ICDE (demo track), CIKM, PAKDD, IEEE BigData, APWeb-WAIM, ADMA, DSAA, ...
+            <br>2023: ICDE (demo track), PAKDD, ...
+            <br>2022: ICDE (demo track), CIKM, PAKDD, IEEE BigData, APWeb-WAIM, ADMA, DSAA
             <br>2021: CIKM, SSTD
             <br>
             <br><b>Conference External Reviewer:</b>

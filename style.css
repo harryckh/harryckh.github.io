@@ -1,3 +1,4 @@
+
 body {
     padding-top: 70px;
 }
@@ -85,4 +86,6 @@ body {
         
         }
 
+#more {display: none;}
+button.link { background:none; border:none; }
 
