@@ -90,3 +90,28 @@ body {
 #more {display: none;}
 button.link { background:none; border:none; }
 
+
+ /* Style for the first list (J1, J2, ...) */
+    .j-list {
+      list-style-type: none;
+      counter-reset: j-counter; /* Initialize the custom counter for J */
+    }
+
+    .j-list li {
+      counter-increment: j-counter; /* Increment the J counter */
+      margin: 5px 0;
+    }
+
+    .j-list li::before {
+      content: "J" counter(j-counter) ". "; /* Add the prefix J */
+      font-weight: bold;
+      margin-right: 5px;
+    }
+
+    /* Style for the second list (C1, C2, ...) */
+    .c-list {
+      list-style-type: none;
+      counter-reset: c-counter; /* Initialize the custom counter for C */
+    }
+    
+
